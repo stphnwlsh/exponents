@@ -1,4 +1,4 @@
-﻿namespace Exponents.API.Weather;
+﻿namespace Exponents.API.MultiLevel;
 
 public class WeatherForecast
 {

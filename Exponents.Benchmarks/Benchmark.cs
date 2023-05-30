@@ -33,7 +33,7 @@ public class Benchmark
 
     private static string ExponentsCalculation(int a, int b, int c)
     {
-        return $"{BigInteger.Pow(a, (int)Math.Pow(b, c))}";
+        return $"{BigInteger.Pow(a, (int)BigInteger.Pow(b, c))}";
     }
 
     private string CachedExponentsCalculation(int a, int b, int c)
